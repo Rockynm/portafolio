@@ -7,7 +7,7 @@ function encriptador(){
     let datos = dato.value;
 
     const mayusculas = /[A-Z]/;
-    const caracteresEspeciales = /[!@#$%^&*(),.?":{}|<>+-]/;
+    const caracteresEspeciales = /[!@#$%^&*(),.?":{}|<>+-ÁÉÍÓÚáéíóú]/;
 
     if (mayusculas.test(datos) || caracteresEspeciales.test(datos)) {
         alert("Ingresa solo letras en minúsculas y sin acentos");
@@ -63,7 +63,7 @@ function desencriptador(){
 
 
     const mayusculas = /[A-Z]/;
-    const caracteresEspeciales = /[!@#$%^&*(),.?":{}|<>+-]/;
+    const caracteresEspeciales = /[!@#$%^&*(),.?":{}|<>+-ÁÉÍÓÚáéíóú]/;
 
     if (mayusculas.test(datos) || caracteresEspeciales.test(datos)) {
         alert("Ingresa solo letras en minúsculas y sin acentos");
